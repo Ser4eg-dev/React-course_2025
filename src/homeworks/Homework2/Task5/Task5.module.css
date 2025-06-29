@@ -1,0 +1,55 @@
+.wrapper {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #111;
+  color: #fff;
+  border-radius: 12px;
+}
+
+.resultsBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 20px;
+}
+
+.resultItem {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #333;
+}
+
+.domainRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.domain {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.title {
+  font-size: 18px;
+  color: #4ab3f4;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 6px;
+}
+
+.title:hover {
+  text-decoration: underline;
+}
+
+.description {
+  font-size: 14px;
+  color: #ccc;
+  line-height: 1.4;
+}
+
+.favicon {
+  width: 16px;
+  height: 16px;
+}

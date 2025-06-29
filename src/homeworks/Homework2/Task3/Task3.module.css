@@ -1,0 +1,52 @@
+.trainerContainer {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #fdfdfd;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.elementBox {
+  display: inline-block;
+  padding: 10px;
+  border: 4px solid transparent;
+  margin-bottom: 15px;
+  max-width: 100%;
+}
+
+.correct {
+  border-color: green;
+}
+
+.incorrect {
+  border-color: red;
+}
+
+.elementImg {
+  max-width: 100%;
+  max-height: 200px;
+  height: auto;
+  object-fit: contain;
+}
+
+.message {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
+
+.input {
+  padding: 8px 12px;
+  min-width: 60%;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}

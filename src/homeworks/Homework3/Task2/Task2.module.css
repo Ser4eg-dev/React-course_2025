@@ -1,0 +1,98 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 60px);
+  grid-template-rows: repeat(3, 60px);
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.cell {
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border: 2px solid #999;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.cell:hover {
+  background-color: #f0f0f0;
+}
+
+.X {
+  color: #d11d1d;
+  font-weight: bold;
+}
+
+.O {
+  color: #1d4ed8;
+  font-weight: bold;
+}
+
+.winning {
+  background-color: #d1fae5 !important;
+  border-color: #10b981 !important;
+}
+
+.info {
+  max-width: 300px;
+}
+
+.infoText {
+  font-size: 16px;
+  margin: 12px 0;
+  font-weight: bold;
+}
+
+.historyList {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.historyButton {
+  margin-bottom: 6px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  border: 1px solid #888;
+  background-color: #f0f0f0;
+  color: #000;
+  transition: background-color 0.2s ease;
+}
+
+.historyButton:hover {
+  background-color: #ddd;
+}
+
+.activeStep {
+  font-weight: bold;
+  border-color: #1d4ed8;
+  background-color: #c7d2fe;
+}
+
+.restartButton {
+  margin-top: 12px;
+  padding: 6px 12px;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.restartButton:hover {
+  background-color: #45a049;
+}

@@ -1,0 +1,58 @@
+.wrapper {
+  padding: 20px;
+  width: 700px;
+  margin: 0 auto;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+
+.title {
+  text-align: center;
+}
+
+.numbersField {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0;
+  background-color: rgb(92, 132, 192);
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+
+.digitList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.digitBox {
+  width: 40px;
+  height: 40px;
+  background-color: #222;
+  color: #fff;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.usedDigits {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.result {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+  background: #fff3f3;
+  border: 1px solid #f5c2c2;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}

@@ -1,0 +1,26 @@
+.configWrapper {
+  padding: 20px;
+}
+
+.configForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.formItem {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.formItem label {
+  min-width: 200px;
+  margin-bottom: 0px;
+}
+
+.formItem input {
+  width: 60px;
+  padding: 5px 5px;
+}

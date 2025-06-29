@@ -1,0 +1,49 @@
+.wrapper {
+  max-width: 300px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 2px solid green;
+  border-radius: 10px;
+  background-color: #fff;
+  text-align: left;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.input {
+  width: 100%;
+  padding: 6px 10px;
+  font-size: 14px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.subtitle {
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: rgb(2, 50, 141);
+}
+
+.list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.item {
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.highlight {
+  background-color: yellow;
+  font-weight: bold;
+}

@@ -1,0 +1,30 @@
+.form-container {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #7aabeb;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.options {
+  margin-top: 20px;
+}
+
+.business-bg {
+  background-image: url('https://st2.depositphotos.com/1736422/7711/i/450/depositphotos_77114731-stock-photo-business-jet-interior.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.economy-bg {
+  background-image: url('https://www.aircraft.cleaning/downloads/aircraft-interior-cabin-cleaning.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
