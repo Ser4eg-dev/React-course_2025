@@ -31,6 +31,7 @@ export default function Homeworks() {
           <p>Калькулятор</p>
           <p>Таблиця з фільтрацією та сортуванням, чутлива до UI</p>
           <p>Розмір вікна браузера</p>
+          <p>useDebounce – відкладений виклик функції</p>
         </HomeworkSection>
       </div>
     </div>
